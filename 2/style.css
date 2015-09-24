@@ -2,29 +2,42 @@
 html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
     margin:0;
     padding:0;
+    list-style: none;
 }
 body{
     position:relative;
+
 }
 #red{
     background:red;
+    position:relative;
+    height: 90px;
+
 }
-#green{
-    background:green;
+
+#yellow{
+    background:yellow;
+    float:left;
+    width:33.3333%;
+    height:520px;
 }
 #blue{
     background:blue;
+    float:left;
+    width:33.3333%;
+    height:520px;
 }
-#parent{
-    border:5px solid black;
-    position:relative;
+#green{
+    background:green;
+    float:left;
+    width:33.33333%;
+    height:520px
 }
 #purple{
     background:purple;
+    height:90px;
+    clear:both;
 }
-#yellow{
-    background: yellow;
-}
-.box{
-    min-height:100px;
+.box {
+    min-height: 0;
 }
