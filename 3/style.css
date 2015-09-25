@@ -6,35 +6,36 @@ html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
 }
 body{
     position:relative;
+    height: 600px;
 
 }
 #red{
     background:red;
     position:relative;
-    height: 83px;
+    height: 15%;
 }
 
 #yellow{
     background:yellow;
     float:left;
     width:33.3333%;
-    height:450px;
+    height:75%;
 }
 #blue{
     background:blue;
     float:left;
     width:33.3333%;
-    height:450px;
+    height:75%;
 }
 #green{
     background:green;
     float:left;
     width:33.33333%;
-    height:450px;
+    height:75%;
 }
 #purple{
     background:purple;
-    height:83px;
+    height: 15%;
     clear:both;
 }
 .box {
